@@ -3,7 +3,7 @@
 <asp:Table id="tblSignUp" runat="server">
     <asp:TableRow> 
         <asp:TableCell>
-            <p>Username:</p>
+            <p>Username:&nbsp;&nbsp;&nbsp;</p>
             
         </asp:TableCell>
         <asp:TableCell>
@@ -11,10 +11,14 @@
 
         </asp:TableCell>
     </asp:TableRow>
+    <asp:TableRow>
+        <asp:TableCell>&nbsp;&nbsp;&nbsp;</asp:TableCell>
+        <asp:TableCell>&nbsp;&nbsp;&nbsp;</asp:TableCell>
+    </asp:TableRow>
 
     <asp:TableRow> 
         <asp:TableCell>
-            <p>Password:</p>
+            <p>Password:     </p>
 
         </asp:TableCell>
 
@@ -23,6 +27,13 @@
 
         </asp:TableCell>
     </asp:TableRow>
+
+        <asp:TableRow>
+        <asp:TableCell>&nbsp;&nbsp;&nbsp;</asp:TableCell>
+        <asp:TableCell>&nbsp;&nbsp;&nbsp;</asp:TableCell>
+    </asp:TableRow>
+
+
 
     <asp:TableRow> 
         <asp:TableCell>
@@ -33,6 +44,24 @@
                         <input name="Email" type="text" id="Email" />
 
         </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+        <asp:TableCell>&nbsp;&nbsp;&nbsp;</asp:TableCell>
+        <asp:TableCell>&nbsp;&nbsp;&nbsp;</asp:TableCell>
+    </asp:TableRow>
+    <asp:TableRow>
+        
+                <asp:TableCell>
+
+
+        </asp:TableCell>
+        <asp:TableCell>
+            <asp:Button ID="Button1" runat="server" Text="Submit" />
+
+
+        </asp:TableCell>
     </asp:TableRow>
 
 </asp:Table>
+
+

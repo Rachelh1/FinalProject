@@ -15,12 +15,12 @@ namespace FinalProject
 	{
 
 		/// <summary>
-		/// signupForm1 control.
+		/// SignUpForm control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::FinalProject.Content.WebUserControl1 signupForm1;
+		protected global::FinalProject.Content.WebUserControl1 SignUpForm;
 	}
 }
